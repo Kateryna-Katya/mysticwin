@@ -209,3 +209,36 @@ width: 323px;
            margin-right: auto;
         }
 }
+/* World */
+.world-section{
+    background-image: url("/img/world/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 231px;
+    height: 722px;
+}
+.world-title-wrapper{
+    background-size: 82px 6px, 82px 6px;
+}
+.world-text{
+    margin-top: 24px;
+}
+.world-container{
+    padding-top: 0;
+}
+@media only screen and (min-width: 1440px) {
+    .world-section{
+        background-image: url("/img/world/desk.png");
+            background-size: 100% 811px;
+            height: 1199px;
+    }
+    .mob{
+        display: none;
+    }
+    .world-subtitle{
+        margin-top: 32px;
+    }
+        .world-title-wrapper {
+            background-size: 551px 6px, 551px 6px;
+        }
+}
