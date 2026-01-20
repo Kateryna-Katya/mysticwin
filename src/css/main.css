@@ -191,3 +191,21 @@ width: 323px;
     height: 24px;
 
 }
+@media only screen and (min-width: 1440px) {
+    .demo-text{
+        margin-top: 32px;
+    }
+        .demo-wrapper {
+            position: relative;
+            max-width: 1200px;
+            margin: 32px auto 0;
+            height: 757px;
+        }
+    
+        .game-img {
+        width: 1062px;
+            height: 757px;
+            margin-left: auto;
+           margin-right: auto;
+        }
+}
