@@ -30,7 +30,7 @@ h3{
     height: 85px;
   background-image: url("/img/title/left.png"), url("/img/title/right.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: top 70% left, top 70% right 16px;
+  background-position: top 70% left, top 70% right;
   background-size: 106px 6px, 106px 6px;
 }
 .btn{
