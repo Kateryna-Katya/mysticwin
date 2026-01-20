@@ -242,3 +242,35 @@ width: 323px;
             background-size: 551px 6px, 551px 6px;
         }
 }
+/* Battle */
+.battle-container{
+    padding-top: 0;
+    background-image: url("/img/battle/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 220px;
+    background-size: 341px 178px;
+}
+.battle-text{
+    margin-top: 24px;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.battle-container {
+        padding-top: 0;
+        background-image: url("/img/battle/desk.png");
+
+        padding-bottom: 280px;
+        background-size: 949px 400px;
+    }
+
+    .battle-text {
+        margin-top: 40px;
+        width: 410px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 100px;
+    }
+}
