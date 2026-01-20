@@ -25,10 +25,13 @@ h3{
     text-shadow: 1px 1px 1px 0 #55394f;
 }
 .title-wrapper{
+  padding: 48px 16px 16px;
+    width: 375px;
+    height: 85px;
   background-image: url("/img/title/left.png"), url("/img/title/right.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: top 50% left 16px, top 50% right 16px;
-  background-size: contain, contain;
+  background-position: top 70% left, top 70% right 16px;
+  background-size: 106px 6px, 106px 6px;
 }
 .btn{
   border: 1px solid #a74405;
