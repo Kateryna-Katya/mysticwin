@@ -1,32 +1,48 @@
-:root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body{
+  background: #0d0e1b;
+  font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #dfdcd6;
+}
+h2{
+  font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #dfdcd6;
+    opacity: 0.7;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+h3{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-size: 32px;  
+    line-height: 1.21875;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a0771f;
+    text-shadow: 1px 1px 1px 0 #55394f;
 }
-
-main {
-  flex-grow: 1;
+.title-wrapper{
+  background-image: url("/img/title/left.png"), url("/img/title/right.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 50% left 16px, top 50% right 16px;
+  background-size: contain, contain;
 }
-main:has(.back-link) {
-  text-align: center;
+.btn{
+  border: 1px solid #a74405;
+    border-radius: 16px;
+    width: 240px;
+    height: 56px;
+    box-shadow: 0 2px 4px 0 rgba(167, 68, 5, 0.5);
+      background: linear-gradient(180deg, #c95206 0%, #fe731a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.3;
+        color: #dfdcd6;
 }
