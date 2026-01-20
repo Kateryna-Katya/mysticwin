@@ -274,3 +274,80 @@ width: 323px;
         margin-right: 100px;
     }
 }
+/* Power */
+.power-container{
+    padding-top: 0;
+    padding-bottom: 280px;
+    background-image: url("/img/power/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 343px 247px;
+}
+.power-text{
+    margin-top: 24px;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.power-list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.power-item{
+   background-image: url('/img/power/item.png');
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: 320px 72px;
+width: 320px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+ .power-container{
+    background-image: url("/img/power/desk.png");
+    background-size: 1280px 921px;
+    padding-bottom: 960px;
+ }
+ .power-text{
+    width: 100%;
+    margin-top: 40px;
+ }
+ .power-list{
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+ }
+}
+/* PROGRESSION */
+.progression-section{
+    background-image: url("/img/progression/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 536px;
+    height: 960px;
+}
+.progression-container{
+    padding-top: 0;
+}
+.progression-text{
+    margin-top: 24px;
+    width: 283px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+  .progression-section{
+    background-image: url("/img/progression/desk.png");
+    height: 2415px;
+    background-size: 100% 2057px;
+  }
+  .progression-text{
+    margin-top: 32px;
+    width: 535px;
+  }
+}
