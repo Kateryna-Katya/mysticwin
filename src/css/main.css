@@ -55,3 +55,36 @@ height: 870px;
     margin-top: 40px;
    }
 }
+/* Disclaimer */
+.disclaimer-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.disclaimer-title{
+    font-family: "Titillium Web", sans-serif;
+        font-weight: 900;
+        font-size: 16px;
+        text-align: center;
+        color: #a0771f;
+        opacity: 1;
+}
+.disclaimer-text{
+    font-family: "Titillium Web", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #dfdcd6;
+}
+@media only screen and (min-width: 1440px) {
+   .disclaimer-wrapper{
+    padding-left: 189px;
+    padding-right: 189px;
+    flex-direction: row;
+    gap: 64px;
+   }
+   .disclaimer-text{
+    text-align: left;
+   }
+}
