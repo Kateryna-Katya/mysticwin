@@ -122,11 +122,16 @@ padding: 8px;
     transition: all 0.2s ease;
   }
 
-  .navigation-item:hover,
-  .navigation-item:focus,
-  .navigation-item.active {
-border-bottom: 1px solid #fe731a;
+  .navigation-item:hover
+{
+
 font-weight: 400;
   }
+
+        .navigation-item:focus,
+        .navigation-item.active {
+          border-bottom: 1px solid #fe731a;
+          font-weight: 400;
+        }
 
 }
