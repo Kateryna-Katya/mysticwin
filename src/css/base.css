@@ -26,7 +26,7 @@ h3{
 }
 .title-wrapper{
   padding: 48px 16px 16px;
-    width: 375px;
+
     height: 85px;
   background-image: url("/img/title/left.png"), url("/img/title/right.png");
   background-repeat: no-repeat, no-repeat;
